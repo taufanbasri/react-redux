@@ -2,6 +2,7 @@ import { Provider } from "react-redux";
 import "./App.css";
 import CakeConainer from "./components/CakeConainer";
 import HookCakeContainer from "./components/HookCakeContainer";
+import IceCreamContainer from "./components/IceCreamContainer";
 import store from "./redux/store";
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
         <hr />
         <h2>Only Redux</h2>
         <CakeConainer />
+
+        <hr />
+        <IceCreamContainer />
       </div>
     </Provider>
   );
